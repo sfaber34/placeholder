@@ -41,7 +41,7 @@
 		 * Background image
 		/* ---------------------------------------------- */
 
-		$('#intro').backstretch(['assets/images/bg3.jpg']);
+		$('#intro').backstretch(['assets/images/mountainImg.jpg']);
 
 		/* ---------------------------------------------- /*
 		 * Navbar
