@@ -2,14 +2,14 @@
 
 	// Contact
 	$to = 'sfaber34@gmail.com';
-    $subject = 'Email List Signup';
+    $subject = 'EmailListSignup';
 
 	if(isset($_POST['c_email'])){
     	$from    = $_POST['c_email'];
 
 		if (mail($to, $subject, $from)) {
 			$result = array(
-				'message' => 'Thanks for contacting us!',
+				'message' => "We'll keep you in the loop!",
 				'sendstatus' => 1
 				);
 			echo json_encode($result);

@@ -1046,6 +1046,10 @@ h1.logoFont{
   letter-spacing: 14px;
 }
 
+.mainLogo{
+  max-width: 340px;
+}
+
 
 .subLogoFont{
 	font-family: "MuseoSans_500";
@@ -1074,6 +1078,11 @@ h1.logoFont{
 	padding-top: 80px;
   padding-bottom: 40px;
 }
+
+
+/* ---------------------------------------------- /*
+ * Margin Overrides
+/* ---------------------------------------------- */
 
 .mt10{
   margin-top: 10px !important;
@@ -1117,7 +1126,9 @@ h1.logoFont{
 
 
 
-
+/* ---------------------------------------------- /*
+ * Media screen queries
+/* ---------------------------------------------- */
 
 
 
@@ -1135,4 +1146,19 @@ h1.logoFont{
   .iconDiv{
     margin-bottom: 30px;
   }
+}
+
+
+@media only screen and (max-width : 330px) {
+  h1.logoFont{
+  	font-size: 98px;
+    margin-top:40px;
+    line-height: 80px;
+  }
+
+  .uas{
+    font-size: 60px;
+  }
+
+
 }
