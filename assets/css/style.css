@@ -1146,6 +1146,10 @@ h1.logoFont{
   .iconDiv{
     margin-bottom: 30px;
   }
+
+  .mainLogo{
+    max-width: 240px;
+  }
 }
 
 
