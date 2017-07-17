@@ -67,7 +67,7 @@ font-family: font126755;
 
 					<div class="col-md-12">
 
-						<div class="hello wow fadeInDown">
+						<div class="hello wow fadeInDown iconDiv">
 							<img src="assets/images/icon.png"/>
 						</div>
 
@@ -80,8 +80,7 @@ font-family: font126755;
 					<div class="col-md-12">
 
 						<div class="hello wow fadeInDown">
-							<h1 class="logoFont">azure</h1>
-							<h2 class="subLogoFont"><span>Aerial Solutions</span></h2>
+							<h1 class="logoFont">azure <span class="uas">UAS</span></h1>
 						</div>
 
 
@@ -115,27 +114,41 @@ font-family: font126755;
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
-						<p class="siteSoonBlurb">Azure Aerial Solutions provides outstanding drone based photography across the Colorado front range. Our site is currently under development. Please enter your email below if you would like to be notified when our website and services are up and running.</p>
+						<p class="siteSoonBlurb">Azure UAS provides outstanding drone based photography across the Colorado front range. Our site is currently under development. Please enter your email below if you would like to be notified when our website and services are up and running.</p>
 					</div>
 					<div class="col-md-2"></div>
 					<div class="clearfix"></div>
 
 				</div><!-- .row -->
 
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-8">
-						<div class="input-group emailInput">
-							<input type="text" class="form-control" placeholder="Input group">
-							<span class="input-group-btn">
-								<button type="submit" class="btn btn-custom-1-inverse">Input group</button>
-							</span>
-						</div>
-					</div>
-					<div class="col-md-2"></div>
-					<div class="clearfix"></div>
 
-				</div><!-- .row -->
+
+				<div class="row mt80">
+					<div class="col-md-1"></div>
+					<div class="col-md-10 wow bounceInLeft">
+
+						<form id="contact-form" method="post" role="form">
+
+							<div class="ajax-hidden">
+
+								<div class="form-group">
+									<label class="sr-only" for="c_email">Email address</label>
+									<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+								</div>
+
+								<button type="submit" class="btn btn-custom-1-inverse">
+									<i class="fa fa-bullhorn icon-before"></i> Submit
+								</button>
+
+							</div>
+
+							<div class="ajax-response"></div><!-- Displays status when submitting form -->
+
+						</form>
+
+					</div><!-- .col -->
+					<div class="col-md-1"></div>
+				</div>
 
 			</div><!-- .container -->
 
